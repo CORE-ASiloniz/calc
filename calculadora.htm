@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>CORE2016 P7</title>
+<link href="style.css" rel="stylesheet" type="text/css" media="all">
+<script type="text/javascript">
+
+function vaciar(){
+	document.getElementById("box").value="";
+}
+function cuadrado(){
+	var num=document.getElementById("box");
+	num.value=num.value*num.value;
+}
+</script>
+</head>
+
+<body>
+<p id="titulo">Calculadora GitHUB</p>
+Insertar número: <br><input type="text" id="box" onclick="vaciar()">
+<button onclick="cuadrado()">x<sup>2</sup></button>
+</body>
+</html>
